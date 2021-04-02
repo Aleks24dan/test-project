@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://JulieJud.github.io/5th-element-team-proj",
+  "homepage": "https://aleks24dan.github.io/test-project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /5th-element-team-proj/"
+    "build": "parcel build src/*.html --public-url /test-project/"
   },
   "repository": {
     "type": "git",
