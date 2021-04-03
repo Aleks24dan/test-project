@@ -1,8 +1,11 @@
 .benefits {
   padding-bottom: 30px;
 }
-.list-benefits__icon {
-  width: 16px;
-  height: 20px;
-  fill: var(--orange-color);
+.list-benefits__item {
+  &::before {
+    width: 16px;
+    height: 20px;
+    fill: var(--orange-color);
+    background-image: url(../images/svg/fire.svg);
+  }
 }
