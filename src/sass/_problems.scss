@@ -1,0 +1,13 @@
+.problems {
+  padding-top: 46px;
+}
+
+.list-problems {
+  counter-reset: number 0;
+}
+.list-problems__item {
+  counter-increment: number;
+  &::before {
+    content: counter(number);
+  }
+}
