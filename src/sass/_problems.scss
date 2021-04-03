@@ -16,17 +16,12 @@
 
   &::before {
     position: relative;
-    content: counter(number);
+    content: '' counter(number);
     color: var(--orange-color);
-    margin-left: 5px;
-  }
-  &::after {
-    position: absolute;
-    top: 5px;
-    content: '';
     width: 15px;
     height: 2px;
     background-color: var(--orange-color);
+    margin-left: 5px;
   }
 
   @media screen and (min-width 768px) {
