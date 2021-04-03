@@ -8,6 +8,8 @@
 .list-problems__item {
   counter-increment: number;
   &::before {
-    content: counter(number);
+    content: '' counter(number);
+    width: 10px;
+    height: 2px solid;
   }
 }
