@@ -15,10 +15,8 @@
   counter-increment: number;
 
   &::before {
-    position: relative;
     content: counter(number);
     color: var(--orange-color);
-    background-color: var(--orange-color);
     margin-left: 5px;
   }
 
