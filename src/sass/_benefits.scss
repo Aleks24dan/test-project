@@ -3,6 +3,7 @@
 }
 .list-benefits__item {
   &::before {
+    content: '';
     width: 16px;
     height: 20px;
     fill: var(--orange-color);
