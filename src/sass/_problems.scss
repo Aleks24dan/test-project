@@ -7,11 +7,20 @@
 }
 .list-problems__item {
   counter-increment: number;
+  position: relative;
   &::before {
-    content: '' counter(number);
+    position: absolute;
+    content: counter(number);
+    width: 10px;
+    height: 2px;
+
+    color: var(--orange-color);
+  }
+  &::after {
+    position: absolute;
+    content: '';
     width: 10px;
     height: 2px;
     background-color: var(--orange-color);
-    color: var(--orange-color);
   }
 }
