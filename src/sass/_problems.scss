@@ -16,10 +16,8 @@
 
   &::before {
     position: relative;
-    content: '' counter(number);
+    content: counter(number);
     color: var(--orange-color);
-    width: 15px;
-    height: 2px;
     background-color: var(--orange-color);
     margin-left: 5px;
   }
