@@ -10,7 +10,8 @@
   &::before {
     content: '' counter(number);
     width: 10px;
-    height: 2px solid;
+    height: 2px;
+    background-color: var(--orange-color);
     color: var(--orange-color);
   }
 }
